@@ -1,0 +1,42 @@
+.body {
+  background-color: aqua;
+}
+.div {
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.div1 {
+  background-color: azure;
+  font-size: larger;
+  color: blue;
+}
+.div2 {
+  background-color: azure;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.mdiv {
+  background-color: rgb(202, 146, 106);
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.picture-container {
+  text-align: center;
+  margin-top: 15px;
+}
+.para {
+  border: yellow;
+  background-color: green;
+  font-size: large;
+}

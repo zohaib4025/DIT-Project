@@ -1,0 +1,45 @@
+.body {
+  background-color: aqua;
+}
+.h1 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+.h2 {
+  background-color: beige;
+}
+.sec {
+  background-color: rgb(238, 79, 79);
+}
+.button-section {
+  text-align: center;
+  margin: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 30px;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #104263;
+  border-radius: 4px;
+  background-color: #722ce2;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fa1313;
+  color: #062e49;
+}
+
+.button img {
+  max-width: 204px;
+  max-height: 192px;
+  margin-bottom: 1px;
+}

@@ -1,0 +1,64 @@
+.body1 {
+  background-color: aqua;
+}
+.topbrands {
+  background-color: blueviolet;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div {
+  background-color: blanchedalmond;
+  font-size: x-large;
+}
+.div1 {
+  background-color: burlywood;
+  font-size: large;
+}
+.div2 {
+  background-color: aliceblue;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.button-section {
+  text-align: center;
+  margin: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  background-color: #cb1ff7;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2aa15c;
+  color: #3498db;
+}
+
+.button img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+}

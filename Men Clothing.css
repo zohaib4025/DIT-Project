@@ -1,0 +1,41 @@
+.body {
+  background-color: aqua;
+}
+.h1 {
+  background-color: rgb(79, 150, 8);
+  text-align: center;
+}
+.div {
+  background-color: tomato;
+  text-decoration: dotted;
+}
+.button-section {
+  text-align: center;
+  margin: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #dac760;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #222020;
+  color: #9fbe49;
+}
+
+.button img {
+  max-width: 350px;
+  max-height: 350px;
+  margin-bottom: 5px;
+}
